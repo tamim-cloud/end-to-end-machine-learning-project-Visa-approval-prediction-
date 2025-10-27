@@ -1,5 +1,5 @@
 # end-to-end-machine-learning-project-Visa-approval-prediction-
-
+"""
 Folder Structure
 Visa
 │
@@ -27,3 +27,4 @@ Visa
 │
 └── utils
     └── main_utils.py
+"""
