@@ -4,11 +4,11 @@ import os
 from from_root import from_root
 from datetime import datetime
 
-log_file= f"{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log"
+LOG_FILE= f"{datetime.now().strftime('%d_%m_%Y_%H_%M_%S')}.log"
 
 log_dir="log_info"
 
-logs_path=os.path.join(from_root(),log_dir,log_file)
+logs_path=os.path.join(from_root(),log_dir,LOG_FILE)
 
 os.makedirs(logs_path,exist_ok=True)
 
